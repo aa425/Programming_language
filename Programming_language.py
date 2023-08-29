@@ -120,10 +120,4 @@ while True:
                     variables[param] = simple_eval(args[j])
                 result = evaluate_expression(functions[function_name][1])
                 variables[variable_name] = result
-                print(f"Variable '{variable_name}' assigned with value '{variables[variable_name]}'")
-        else:
-            variable_value = " ".join(tokens[3:])
-            variables[variable_name] = evaluate_expression(variable_value)
-            print(f"Variable '{variable_name}' assigned with value '{variables[variable_name]}'")
-
-    # ... (rest of the interpreter code)
+               
