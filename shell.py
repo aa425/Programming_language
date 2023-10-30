@@ -18,7 +18,7 @@ Username = 'aarohcharne'
 password = 'Laddu@2010'
 
 U1 = input("Username: ")
-P1 = input("Password: ")
+P1 = getpass("Password: ")
 
 if U1 == Username and P1 == password:
     print("Access Granted")
