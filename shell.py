@@ -1,3 +1,4 @@
+import maskpass
 import subprocess 
 import time
 def shell():
@@ -18,9 +19,9 @@ Username = 'aarohcharne'
 password = 'Laddu@2010'
 
 U1 = input("Username: ")
-P1 = getpass("Password: ")
+pwd = maskpass.askpass("password: ")
 
-if U1 == Username and P1 == password:
+if U1 == Username and pwd == password:
     print("Access Granted")
     time.sleep(2)
     print("Please wait for kernal...")
