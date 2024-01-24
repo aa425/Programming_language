@@ -15,7 +15,7 @@ def shell():
             print(f"Command returned a non-zero exit status: {e.returncode}")
         except Exception as e:
             print(f"An error occurred: {e}")
-Username = 'aarohcharne'
+Username = U1
 
 
 U1 = input("Username: ")
